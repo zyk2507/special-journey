@@ -1,3 +1,28 @@
+## Arrays
+
+```c
+int num[4];
+
+int num[4] = {1, 2, 3, 4};
+```
+
+**Array indexes start with 0: [0] is the first element. [1] is the second element, etc.**
+
+## Case-switch
+
+```c
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+```
+
 ## How to use qsort()
 
 [sorting - C library function to perform sort - Stack Overflow](https://stackoverflow.com/questions/1787996/c-library-function-to-perform-sort)
@@ -67,5 +92,3 @@ the_record *y = (the_record *) b;
 return x->key - y->key;
 }
 ```
-
-
