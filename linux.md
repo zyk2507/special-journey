@@ -58,3 +58,6 @@ iperf -s -t 60
 ```
 
 
+# OpenWRT
+## change default ip address
+openwrt/package/base-files/files/bin/config_generate
